@@ -1,0 +1,25 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: postgres
+      password: postgres
+      dbname: postgres
+      schema: public
+      port: 5432
+      threads: 1
+
+docker_dbt_postgres_test:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: postgres
+      password: postgres
+      dbname: postgres
+      schema: public
+      port: 5432
+      threads: 1

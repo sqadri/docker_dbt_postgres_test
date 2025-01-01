@@ -1,0 +1,15 @@
+
+version: 1
+
+models:
+  - name: m1_actor_ratings
+    description: "Subset of 'actor_films'"
+
+  - name: m2_avg_rating
+    description: "Actors and their average performance rating"
+
+  - name: m3_ranked_actors
+    description: "Actors ranked by average performance rating"
+
+  - name: m4_top_rated_actors
+    description: "Actors with a dense_rank <= 10"
